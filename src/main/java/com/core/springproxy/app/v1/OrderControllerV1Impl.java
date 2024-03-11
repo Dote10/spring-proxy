@@ -1,7 +1,9 @@
 package com.core.springproxy.app.v1;
 
+import lombok.extern.slf4j.Slf4j;
 
-public class OrderControllerV1Impl implements OrdersControllerV1{
+@Slf4j
+public class OrderControllerV1Impl implements OrderControllerV1 {
 
     private final OrderServiceV1 orderService;
 

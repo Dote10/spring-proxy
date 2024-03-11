@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 @Slf4j
+//@RequestMapping
 @RestController
 @ResponseBody
 public class OrderControllerV2 {
